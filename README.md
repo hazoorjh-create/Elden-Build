@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BuildMaker.UI/Assets/appicon.png" width="140" alt="Elden Build icon"/>
+  <img src="appicon.png" width="140" alt="Elden Build icon"/>
 </p>
 
 <h1 align="center">Elden Build — Elden Ring Build Planner & Save Injector</h1>
