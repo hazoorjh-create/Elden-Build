@@ -1,0 +1,57 @@
+Elden Build — third-party notices
+==================================
+
+This application bundles or builds upon the following open-source software
+and community resources. Licenses permit closed-source binary distribution
+provided these notices accompany the software.
+
+-----------------------------------------------------------------------
+er_core (embedded native library) — modified build of "ER-Save-Editor"
+Copyright (c) ClayAmore — https://github.com/ClayAmore/ER-Save-Editor
+Dual-licensed under the MIT License and the Apache License 2.0.
+This distribution embeds a modified version compiled as a native library
+(batch injection, character dumping, save-format robustness fixes),
+called in-process. Modified per Apache-2.0 §4(b).
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The er-save-editor binary additionally embeds Rust crates including
+eframe/egui (MIT/Apache-2.0) and others under permissive licenses.
+
+-----------------------------------------------------------------------
+UI framework and libraries (MIT License, notice as above applies):
+- Avalonia — Copyright (c) AvaloniaUI OÜ — https://avaloniaui.net
+- CommunityToolkit.Mvvm — Copyright (c) .NET Foundation
+- AsyncImageLoader.Avalonia — Copyright (c) AvaloniaUtils
+- Semi.Avalonia — Copyright (c) irihitech
+
+-----------------------------------------------------------------------
+Game data and assets:
+- Item icons and item metadata sourced via the community project
+  eldenring.fanapis.com. All Elden Ring assets and names are
+  © FromSoftware Inc. / Bandai Namco Entertainment.
+- Item id tables derived from the community "Hexinton ID List".
+- Bundled starter save (Assets\StarterSave) originates from the
+  "all item starter saves" mod on Nexus Mods — used with credit to its
+  author. [confirm permission before distribution]
+
+This tool is unaffiliated with FromSoftware or Bandai Namco. Use modified
+saves offline; going online with them is at your own risk.
